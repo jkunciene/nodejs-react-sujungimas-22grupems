@@ -15,7 +15,7 @@ const NewTransaction = ({getData}) => {
         const newTransaction = {
             text: text,
             amount: amount,
-            user: '6440daf34e68c6382519694e'
+            user: 'idek savo db esancio user id'
         }
         transactionsService.postTransactions(newTransaction);
 

@@ -5,7 +5,7 @@ const asyncHandler = require('express-async-handler');
 // @route GET /api/transactions
 // @access PRIVAT
 const getTransactions = asyncHandler( async (req, res) => {
-    const transactions = await Transaction.find({user: '6440daf34e68c6382519694e'});
+    const transactions = await Transaction.find({user: 'idek savo db esancio user id'});
     res.status(200).json(transactions);
 });
 
